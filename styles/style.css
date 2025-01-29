@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* shared style */
+
+
+.display-flex {
+    display: flex;
+}
+
+.sky-blue {
+    color: #01acfd;
+}
+
+.orange {
+    color: #fea301;
+}
+
+.aqua-blue {
+    color: #05d4df;
+}
+
+.blue-lotos {
+    color: #5d58ef;
+}
+
+.contact-btn {
+    background-color: #fea301;
+}
+
+
+/* navbar related styles */
+.navbar {
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.brand {
+    gap: 20px;
+}
+
+.brand img {
+    width: 100%;
+}
+
+.b-title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.nav-links {
+    gap: 32px;
+}
+
+.nav-link {
+    text-decoration: none;
+
+}
+
+.nav-item {
+    list-style: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.btn-primary {
+    width: 197px;
+    padding: 10px 60px 10px 60px;
+    border-radius: 12px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.25rem;
+
+}
+
+/* -----navbar for mobile vesion----- */
+.nabvar-mobile {
+    display: none;
+}
+
+
+/* \\\\\\banner section\\\\\\ */
+
+.banner {
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 11px;
+    gap: 50px;
+}
+
+.banner-content {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 24px;
+
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.enroll-btn {
+    font-weight: 700;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    padding: auto;
+    padding: 10px 47px;
+    border-radius: 12px;
+    border: none;
+
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+/* standard curriculum section */
+
+.standard-section {
+    max-width: 1440px;
+    background: url(../assets/bg.png);
+    margin: 0 auto;
+    background-size: contain;
+}
+
+.standard-card-container {
+    text-align: center;
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.standard-card-container h1 {
+    font-size: 2.87rem;
+    margin-top: 5%;
+    font-weight: 700;
+}
+
+.card-container {
+    gap: 28px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    /* background-image: url(../assets/bg.png); */
+}
+
+.card-kinder {
+    width: 370px;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180deg,
+            rgba(222, 245, 255, 1),
+            rgba(255, 255, 255, 0) 40%),
+        rgba(255, 255, 255);
+}
+
+.card-elementary {
+    width: 370px;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180deg,
+            rgba(255, 244, 220, 1),
+            rgba(255, 255, 255, 0) 40%) rgba(255, 255, 255);
+}
+
+.card-middle-school {
+    width: 370px;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180deg,
+            rgba(242, 232, 255, 1),
+            rgba(255, 255, 255, 0) 40%),
+        rgba(255, 255, 255);
+}
+
+.card-img {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.card-description {
+    font-size: 0.9rem;
+    margin-bottom: 33px;
+    color: #808080;
+}
+
+.card-title {
+    margin-bottom: 33px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(32, 32, 32, 1);
+}
+
+.arrow-btn-group{
+    margin-top: 70px;
+}
+
+.arrow-button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FEA301;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    border: none;
+
+}
+
+.right-arrow {
+    transform: rotate(180deg);
+}
+
+
+
+
+
+/* -------------media query------------ */
+
+@media screen and (max-width: 576px) {
+
+    .brand,
+    .nav-links,
+    .btn-container {
+        display: none;
+    }
+
+    .nabvar-mobile {
+        border-bottom: 1px solid orange;
+        width: 100%;
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu-button>div {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+
+    /* banner section */
+
+    .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .banner-description {
+        font-size: 1rem;
+    }
+
+    .banner-img {
+        margin-bottom: -60px;
+    }
+
+}
