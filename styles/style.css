@@ -106,6 +106,10 @@
 
 }
 
+.marque-tag {
+    display: block;
+}
+
 /* -----navbar for mobile vesion----- */
 .nabvar-mobile {
     display: none;
@@ -346,6 +350,7 @@
     padding: 10px 18px 10px 18px;
 }
 
+
 .story-btn-big {
     position: relative;
     font-weight: 500;
@@ -464,14 +469,14 @@
 
 @media screen and (max-width: 576px) {
 
-    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    /* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
 
-    .raleway-font {
-        font-family: "Raleway", serif;
-        font-optical-sizing: auto;
-        font-weight: normal;
-        font-style: normal;
-    }
+    /* .raleway-font { */
+        /* font-family: "Raleway", serif; */
+        /* font-optical-sizing: auto; */
+        /* font-weight: normal; */
+        /* font-style: normal; */
+    /* } */
 
 
     .brand,
@@ -494,6 +499,10 @@
         height: 5px;
         background-color: black;
         margin: 6px 0;
+    }
+
+    .marque-tag {
+        /* display: contents; */
     }
 
     /* banner section */
